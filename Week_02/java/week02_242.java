@@ -1,12 +1,11 @@
 import java.util.Arrays;
-import java.util.HashMap;
 
 /**
  * 思路1：将字符串排序，然后对比是否相等
  * 思路2：利用哈希表，HashMap，统计每个字母出现的次数
  * @author 地铁林黛玉
  */
-public class LearnAna {
+public class week02_242 {
     String s = "anagram";
     String t = "nagaram";
 
@@ -41,7 +40,7 @@ public class LearnAna {
 
     }
     public static void main(String[] args) {
-        LearnAna learnAna = new LearnAna();
+        week02_242 learnAna = new week02_242();
         //方法一
         //System.out.println(learnAna.isAnagram1(learnAna.s,learnAna.t));
         //方法二
