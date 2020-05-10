@@ -15,6 +15,7 @@ public class week03_046 {
                 Collections.swap(output, first, i);
             }
         }
+        
 
         public List<List<Integer>> permute(int[] nums) {
             List<List<Integer>> res = new LinkedList();
