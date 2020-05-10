@@ -6,5 +6,4 @@ public class week03_105 {
         TreeNode(int x) {
             val = x;
         }
-
 }

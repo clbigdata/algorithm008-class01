@@ -5,7 +5,6 @@ public class week03_236 {
         public Solution() {
             this.ans = null;
         }
-
         private boolean dfs(TreeNode root, TreeNode p, TreeNode q) {
             if (root == null) return false;
             boolean lson = dfs(root.left, p, q);
